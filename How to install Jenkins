@@ -1,0 +1,31 @@
+
+==========================================================================
+Setup of Jenkins for CI-CD
+==================================
+1 Create 3 AWS Ubuntu instances and name then as (Jenkinserver,Qaserver,Prodserver)
+
+2 Connect to Jenkinserver using Gitbash
+
+3 Update the apt repo
+  sudo apt-get update
+
+4 Install jdk
+  sudo apt-get install -y openjdk-8-jdk
+
+5 Install git maven
+  sudo apt-get install -y git maven
+
+6 Download jenkins.war
+  wget https://get.jenkins.io/war-stable/2.346.1/jenkins.war
+
+7 To  start jenkins
+  java -jar jenkins.war
+
+8 Unlock jenkins by entering the admin password
+
+9 Click on Install suggest Plugin
+
+10 Create a admin user
+
+
+4b4949ad05a6489ebefb3735918e3825
